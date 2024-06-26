@@ -6,7 +6,7 @@
 /*   By: sofia <sofia@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/10 12:23:13 by sofia             #+#    #+#             */
-/*   Updated: 2024/06/25 15:13:04 by sofia            ###   ########.fr       */
+/*   Updated: 2024/06/26 10:07:08 by sofia            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ int main ( void )
         ether.printFees("static/input.csv");
 
         std::cout << std::endl << std::endl;
-        std::cout << SBOLD(SITAL(BYLW("\t\t Doge coin exchange fees: "))) << std::endl << std::endl;
+        std::cout << SBOLD(SITAL(BYLW("\t\t Dogecoin exchange fees: "))) << std::endl << std::endl;
         DatesAndPrices doge(DOGE);
         doge.printFees("static/input.csv");
     } 

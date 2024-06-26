@@ -62,7 +62,7 @@ The `DatesAndPrices` class includes a constant `Date` that is initialized to the
 For testing, we are provided with a Bitcoin history database. However, I also wanted to include other currencies to create more instances of `DatesAndPrices`. To achieve this, I searched for Ethereum and Dogecoin historical data on Kaggle. Here is the final result:
 
 <p align="center">
-  <img src="static/mod09_ex00.png" alt="Console Output" width="700"/>
+  <img src="static/bitcoin_console_output.png" alt="Console Output" width="700"/>
 </p>
 
 And, thanks to OOP 😏, the main is a simple as this: 
